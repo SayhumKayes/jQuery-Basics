@@ -1,0 +1,1 @@
+$("a").attr("href", "http://www.sayhumkayes.epizy.com");

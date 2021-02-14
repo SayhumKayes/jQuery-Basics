@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #74C35B;
+}
+
+.sign_in_form {
+    width: 400px;
+    margin: 150px auto;
+}
+
+#form {
+    padding: 45px;
+    background: #ffffff;
+}
+
+#form label {
+    font-size: 1.2rem;
+    background: #ffffff;
+}
+
+#form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 5px 0;
+    border: none;
+    border-radius: 2px;
+    background: #DFE6E9;
+}
+
+#form input[type=text]:focus,
+#form input[type=email]:focus,
+#form input[type=password]:focus {
+    background: #ffffff;
+    border: 1px solid #111111;
+    transition: 0.5s;
+}
+
+#form #btn {
+    background: #008000;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.error {
+    margin-bottom: 5px;
+}

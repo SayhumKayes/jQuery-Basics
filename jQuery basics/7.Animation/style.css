@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+button{
+    margin: 10px;
+}
+.text1 {
+    background: rgb(255, 99, 71);
+    width: 500px;
+    height: 150px;
+}
+
+.text2 {
+    background: rgb(185, 158, 154);
+    width: 500px;
+    height: 150px;
+}
+
+.text3 {
+    background: rgb(56, 48, 47);
+    width: 500px;
+    height: 150px;
+}
+
+.text4 {
+    background: rgb(116, 178, 219);
+    width: 300px;
+    height: 100px;
+    font-size: 1.5rem;
+}

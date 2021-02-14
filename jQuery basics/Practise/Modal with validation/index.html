@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<button id="login_switch">Click me to log in</button>
+	<div class="cover"></div>
+	<div class="login_area">
+		<ul>
+			<form id="form" action="#">
+				<p>Log In</p>
+				<span>User name : </span>
+				<li><input type="text" id="username" name="name" placeholder="User Name"></li>
+				<div class="error" id="usernameError"></div>
+				<span>Password : </span>
+				<li><input type="password" id="password" name="password" placeholder="Password"></li>
+				<div class="error" id="passwordError"></div>
+				<li><input type="submit" name="submit" value="log in" placeholder=""></li>
+			</form>
+		</ul>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="external-js.js"></script>
+</body>
+</html>

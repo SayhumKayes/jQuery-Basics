@@ -1,0 +1,32 @@
+.form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#form {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid black;
+}
+#form input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+.uEshow
+{
+    display: block;
+}
+.uEhide{
+    display: none;
+}
+.pEshow
+{
+    display: block;
+}
+.pEhide{
+    display: none;
+}
